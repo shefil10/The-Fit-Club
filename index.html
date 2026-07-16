@@ -22,6 +22,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -51,19 +56,25 @@
   <body>
     <!-- navbar -->
     <div class="nav">
-      <div class="menu" onclick="toggleMenu()">
-        <i class="fa-solid fa-bars"></i>
+      <div class="hamburger" id="hamburger">
+        <i class="bi bi-list"></i>
       </div>
       <div class="navhead">
         <p id="headname">The Fit Club</p>
       </div>
-      <div class="nava">
+      <div class="nava" id="nava">
         <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
         <a href="#product"><i class="fa-solid fa-shirt"></i> Product</a>
         <a href="#about"><i class="fa-solid fa-user"></i> About</a>
-      </div>
-      <div class="btn">
+        <div class="btn">
         <a href="#contact"><i class="bi bi-headset"></i>Contact</a>
+      </div>
+      <div class="right-side">
+         <div class="theme-toggle" id="themeToggle">
+            🌙
+        </div>
+      </div>
+    </div>
       </div>
     </div>
 
@@ -90,7 +101,7 @@
           <img src="./images/hero2.jpeg" alt="" />
           <img src="./images/hero3.jpeg" alt="" />
           <img src="./images/hero4.jpeg" alt="" />
-          <!-- <img src="./images/hero2.jpg" alt="" /> -->
+          <img src="./images/hero5.jpg" alt="" />
         </div>
       </div>
     </div>
